@@ -49,7 +49,7 @@ export default function Home() {
           <Link href="https://www.linkedin.com/in/matiasesosa/">
             <AiFillLinkedin />
           </Link>
-          <Link href="https://www.linkedin.com/in/matiasesosa/">
+          <Link href="https://github.com/maezsosa">
             <AiFillGithub />
           </Link>
           <Link href="https://twitter.com/maezsosa">
