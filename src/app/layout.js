@@ -1,7 +1,13 @@
 import './globals.css';
-import localFont from '@next/font/local';
+import { Inter } from 'next/font/google';
+import localFont from 'next/font/local';
 
-const burtons = localFont({ src: '../../public/Burtons.otf' });
+const inter = Inter({ subsets: ['latin'] });
+
+const burtons = localFont({
+  src: '../../public/fonts/Burtons.otf',
+  variable: '--font-burtons',
+});
 
 export const metadata = {
   title: 'Matias Sosa',
@@ -11,7 +17,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={burtons.className}>{children}</body>
+      <body className={(inter.className, burtons.variable)}>{children}</body>
     </html>
   );
 }
