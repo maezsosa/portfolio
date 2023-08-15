@@ -30,11 +30,11 @@ export default function Home() {
             </li>
           </ul> */}
         </nav>
-        <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-60 h-60 mt-20 overflow-hidden md:h-96 md:w-96">
-          <Image src={maezsosa} alt="matias sosa" layout="" objectFit="cover" />
+        <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-40 h-40 mt-10 overflow-hidden md:h-96 md:w-96">
+          <Image src={maezsosa} alt="matias sosa" fill />
         </div>
-        <div className="text-center p-10 ">
-          <h2 className="text-5xl py-2 text text-teal-600 font-medium">
+        <div className="text-center p-5 ">
+          <h2 className="text-4xl py-2 text text-teal-600 font-medium">
             Matias Sosa
           </h2>
           <h3 className="text-2xl py-2">Developer & Product Manager</h3>
@@ -45,7 +45,7 @@ export default function Home() {
             Experiencia en desarrollo de productos digitales.
           </p>
         </div>
-        <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
+        <div className="text-5xl flex justify-center gap-16 py-5 text-gray-600">
           <Link href="https://www.linkedin.com/in/matiasesosa/">
             <AiFillLinkedin />
           </Link>
